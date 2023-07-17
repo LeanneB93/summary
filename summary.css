@@ -1,0 +1,280 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    width: 50%;
+    box-shadow: 2px 2px 20px rgb(176, 173, 173);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+
+}
+
+.exampleContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+
+.exam {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.gradientBg {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 10%;
+}
+
+.whiteBg {
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+
+}
+
+/* 
+.one {
+    border: 5px solid linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 10%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+} */
+
+.word {
+    color: rgb(247, 239, 239);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.result {
+
+    color: rgb(201, 192, 192);
+    padding-top: 0;
+    margin: 0;
+    font-weight: 500;
+
+}
+
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 20%;
+    height: 15%;
+    padding: 80px;
+
+
+
+}
+
+.max {
+    color: rgb(141, 132, 149);
+    margin-top: 0;
+}
+
+
+.score {
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 2px;
+
+}
+
+.sentence {
+    color: rgb(201, 192, 192);
+    padding-top: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0;
+    text-align: center;
+
+}
+
+
+.summary {
+    color: black;
+    font-weight: 100;
+
+
+}
+
+/* .two {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+    padding: 5px;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border: 5px solid green;
+} */
+
+
+
+
+.reaction {
+    width: 90%;
+    border: 0.5px solid hsla(0, 100%, 67%, 0.10);
+    border-radius: 8px;
+    padding: 10px;
+    background: hsla(0, 100%, 67%, 0.20);
+    color: hsl(0, 100%, 67%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.number1 span {
+    padding: 3px;
+}
+
+.bolt {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+
+.bolt span {
+    padding: 5px;
+}
+
+.bold {
+    color: black;
+    font-weight: 300;
+}
+
+.light {
+    color: gray;
+}
+
+.memory {
+    width: 90%;
+    border: 0.5px solid hsla(39, 100%, 56%, 0.15);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: hsla(39, 100%, 56%, 0.20);
+    color: hsl(39, 100%, 56%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.number2 span {
+    padding: 5px;
+}
+
+
+.brain {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.brain span {
+    padding: 5px;
+}
+
+
+
+.verbal {
+    width: 90%;
+    border: 0.5px solid hsla(166, 100%, 37%, 0.15);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: hsla(166, 100%, 37%, 0.20);
+    color: hsl(166, 100%, 37%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.number3 span {
+    padding: 5px;
+}
+
+.comment {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+
+.comment span {
+    padding: 5px;
+}
+
+.visual {
+    width: 90%;
+    border: 0.5px solid hsla(221, 100%, 96%, 0.5);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: hsla(221, 100%, 96%, 1);
+    color: hsl(234, 85%, 45%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.number4 span {
+    padding: 5px;
+}
+
+.eye {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.eye span {
+    padding: 5px;
+}
+
+
+button {
+
+    padding: 20px 80px 20px 80px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 40px;
+    background-color: rgb(26, 30, 68);
+    color: white;
+    margin: 20px;
+    width: 90%;
+
+
+}
